@@ -6,4 +6,4 @@ app = FastAPI(title= "gateway", version= "0.1.0", description= "This is the gate
 @app.get("/health")
 def health() -> dict[str,str]:
     """Liveness check, is the gateway process up?"""
-    return {"status": "ok", "service": "gateway"}
+    return {"status": "ok", "service": "gateway", "version": "0.1.0"}

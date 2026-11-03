@@ -1,0 +1,2 @@
+pytest==9.1.1 # finds and runs tests
+httpx==0.28.1 # used by fastapi to make fake requests to endpoints for testing
