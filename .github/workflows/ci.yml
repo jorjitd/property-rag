@@ -22,8 +22,7 @@ jobs:
         with:
           python-version: "3.12"
       - name: Install dependencies
-        run: pip install -r requirements.txt -r ../../requirements.txt
-      - name: Run tests
+        run: pip install -r requirements.txt -r ../../requirements-dev.txt      - name: Run tests
         run: python -m pytest
   build-gateway:
     name: Build gateway image
