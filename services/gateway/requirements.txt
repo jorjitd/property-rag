@@ -1,2 +1,3 @@
 fastapi==0.150.0 # web framework in python for web endpoints
 uvicorn[standard]==0.54.0 # server that listens on a port and passes requests to FastAPI
+httpx==0.28.1
