@@ -11,7 +11,7 @@ services:
       - --api.insecure=true #this and the above line listen for web traffic on port 80 
     ports:
       - "80:80"
-      - "127.0.0.1:8080:8080" # Dashboard only accessible from localhost
+      - "127.0.0.1:8080:8080" # Dashboard only accessible from localhostt
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock:ro
 
